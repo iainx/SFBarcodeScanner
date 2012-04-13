@@ -1,1 +1,1 @@
-A barcode scanner for iOS 5
+A barcode scanner for iOS
