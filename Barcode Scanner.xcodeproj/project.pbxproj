@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE28F68D153096D800912DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F68C153096D800912DCE /* UIKit.framework */; };
+		AE28F68F153096D800912DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F68E153096D800912DCE /* Foundation.framework */; };
+		AE28F691153096D800912DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F690153096D800912DCE /* CoreGraphics.framework */; };
+		AE28F697153096D800912DCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE28F695153096D800912DCE /* InfoPlist.strings */; };
+		AE28F699153096D800912DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28F698153096D800912DCE /* main.m */; };
+		AE28F69D153096D800912DCE /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28F69C153096D800912DCE /* SFAppDelegate.m */; };
+		AE28F6A0153096D800912DCE /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28F69F153096D800912DCE /* SFViewController.m */; };
+		AE28F6A3153096D800912DCE /* SFViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE28F6A1153096D800912DCE /* SFViewController_iPhone.xib */; };
+		AE28F6A6153096D800912DCE /* SFViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE28F6A4153096D800912DCE /* SFViewController_iPad.xib */; };
+		AE28F6B21530975200912DCE /* zxing-all-in-one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE28F6AE1530975200912DCE /* zxing-all-in-one.cpp */; };
+		AE28F6B61530A1B500912DCE /* SFBarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28F6B41530A1B500912DCE /* SFBarcodeScannerViewController.m */; };
+		AE28F6B71530A1B500912DCE /* SFBarcodeScannerViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE28F6B51530A1B500912DCE /* SFBarcodeScannerViewController~iphone.xib */; };
+		AE28F6B91530A30400912DCE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F6B81530A30400912DCE /* AVFoundation.framework */; };
+		AE28F6BC1530A40B00912DCE /* SFBarcodeProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE28F6BB1530A40B00912DCE /* SFBarcodeProcessor.mm */; };
+		AE28F6BE1530B7D200912DCE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F6BD1530B7D200912DCE /* AssetsLibrary.framework */; };
+		AE28F6C01530B7DC00912DCE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F6BF1530B7DC00912DCE /* CoreVideo.framework */; };
+		AE28F6C21530B7FC00912DCE /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F6C11530B7FB00912DCE /* libiconv.dylib */; };
+		AE28F6C41530B92800912DCE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F6C31530B92800912DCE /* CoreMedia.framework */; };
+		AE28F6C6153318FA00912DCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE28F6C5153318FA00912DCE /* QuartzCore.framework */; };
+		AE87ADFB15370EED006863A7 /* SFBarcodeScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE87ADFA15370EED006863A7 /* SFBarcodeScannerView.m */; };
+		AE87AE0415387E0A006863A7 /* SFBarcodeScannerViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE87AE0315387E0A006863A7 /* SFBarcodeScannerViewController~ipad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE28F688153096D800912DCE /* Barcode Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE28F68C153096D800912DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE28F68E153096D800912DCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE28F690153096D800912DCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE28F694153096D800912DCE /* Barcode Scanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Barcode Scanner-Info.plist"; sourceTree = "<group>"; };
+		AE28F696153096D800912DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE28F698153096D800912DCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE28F69A153096D800912DCE /* Barcode Scanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barcode Scanner-Prefix.pch"; sourceTree = "<group>"; };
+		AE28F69B153096D800912DCE /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		AE28F69C153096D800912DCE /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		AE28F69E153096D800912DCE /* SFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		AE28F69F153096D800912DCE /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		AE28F6A2153096D800912DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFViewController_iPhone.xib; sourceTree = "<group>"; };
+		AE28F6A5153096D800912DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFViewController_iPad.xib; sourceTree = "<group>"; };
+		AE28F6AE1530975200912DCE /* zxing-all-in-one.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "zxing-all-in-one.cpp"; sourceTree = "<group>"; };
+		AE28F6AF1530975200912DCE /* zxing-all-in-one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zxing-all-in-one.h"; sourceTree = "<group>"; };
+		AE28F6B31530A1B500912DCE /* SFBarcodeScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SFBarcodeScannerViewController.h; sourceTree = "<group>"; };
+		AE28F6B41530A1B500912DCE /* SFBarcodeScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBarcodeScannerViewController.m; sourceTree = "<group>"; };
+		AE28F6B51530A1B500912DCE /* SFBarcodeScannerViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "SFBarcodeScannerViewController~iphone.xib"; path = "/Users/iain/Projects/Barcode Scanner/Barcode Scanner/SFBarcodeScanner/SFBarcodeScannerViewController~iphone.xib"; sourceTree = "<absolute>"; };
+		AE28F6B81530A30400912DCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AE28F6BA1530A40B00912DCE /* SFBarcodeProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SFBarcodeProcessor.h; sourceTree = "<group>"; };
+		AE28F6BB1530A40B00912DCE /* SFBarcodeProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SFBarcodeProcessor.mm; sourceTree = "<group>"; };
+		AE28F6BD1530B7D200912DCE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AE28F6BF1530B7DC00912DCE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AE28F6C11530B7FB00912DCE /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		AE28F6C31530B92800912DCE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AE28F6C5153318FA00912DCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE87ADF61536F0C0006863A7 /* SFBarcodeProcessorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFBarcodeProcessorDelegate.h; sourceTree = "<group>"; };
+		AE87ADF815370D23006863A7 /* SFBarcodeTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFBarcodeTypes.h; sourceTree = "<group>"; };
+		AE87ADF915370EED006863A7 /* SFBarcodeScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SFBarcodeScannerView.h; sourceTree = "<group>"; };
+		AE87ADFA15370EED006863A7 /* SFBarcodeScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBarcodeScannerView.m; sourceTree = "<group>"; };
+		AE87ADFC15373E85006863A7 /* SFBarcodeScannerViewControllerDelegate.h */ = {isa = PBXFileReference; path = SFBarcodeScannerViewControllerDelegate.h; sourceTree = "<group>"; };
+		AE87AE01153871B7006863A7 /* ARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCMacros.h; path = ../../InnerBand/InnerBand/Core/Macros/ARCMacros.h; sourceTree = "<group>"; };
+		AE87AE0315387E0A006863A7 /* SFBarcodeScannerViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SFBarcodeScannerViewController~ipad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE28F685153096D800912DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE28F6C6153318FA00912DCE /* QuartzCore.framework in Frameworks */,
+				AE28F6C41530B92800912DCE /* CoreMedia.framework in Frameworks */,
+				AE28F6C21530B7FC00912DCE /* libiconv.dylib in Frameworks */,
+				AE28F6C01530B7DC00912DCE /* CoreVideo.framework in Frameworks */,
+				AE28F6BE1530B7D200912DCE /* AssetsLibrary.framework in Frameworks */,
+				AE28F6B91530A30400912DCE /* AVFoundation.framework in Frameworks */,
+				AE28F68D153096D800912DCE /* UIKit.framework in Frameworks */,
+				AE28F68F153096D800912DCE /* Foundation.framework in Frameworks */,
+				AE28F691153096D800912DCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE28F67D153096D800912DCE = {
+			isa = PBXGroup;
+			children = (
+				AE28F692153096D800912DCE /* Barcode Scanner */,
+				AE28F68B153096D800912DCE /* Frameworks */,
+				AE28F689153096D800912DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE28F689153096D800912DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE28F688153096D800912DCE /* Barcode Scanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE28F68B153096D800912DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE28F6C5153318FA00912DCE /* QuartzCore.framework */,
+				AE28F6C31530B92800912DCE /* CoreMedia.framework */,
+				AE28F6C11530B7FB00912DCE /* libiconv.dylib */,
+				AE28F6BF1530B7DC00912DCE /* CoreVideo.framework */,
+				AE28F6BD1530B7D200912DCE /* AssetsLibrary.framework */,
+				AE28F6B81530A30400912DCE /* AVFoundation.framework */,
+				AE28F68C153096D800912DCE /* UIKit.framework */,
+				AE28F68E153096D800912DCE /* Foundation.framework */,
+				AE28F690153096D800912DCE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE28F692153096D800912DCE /* Barcode Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				AE28F69B153096D800912DCE /* SFAppDelegate.h */,
+				AE28F69C153096D800912DCE /* SFAppDelegate.m */,
+				AE28F69E153096D800912DCE /* SFViewController.h */,
+				AE28F69F153096D800912DCE /* SFViewController.m */,
+				AE87AE05153880B6006863A7 /* SFBarcodeScanner */,
+				AE28F6A1153096D800912DCE /* SFViewController_iPhone.xib */,
+				AE28F6A4153096D800912DCE /* SFViewController_iPad.xib */,
+				AE28F693153096D800912DCE /* Supporting Files */,
+			);
+			path = "Barcode Scanner";
+			sourceTree = "<group>";
+		};
+		AE28F693153096D800912DCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE87AE01153871B7006863A7 /* ARCMacros.h */,
+				AE28F694153096D800912DCE /* Barcode Scanner-Info.plist */,
+				AE28F695153096D800912DCE /* InfoPlist.strings */,
+				AE28F698153096D800912DCE /* main.m */,
+				AE28F69A153096D800912DCE /* Barcode Scanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE87AE05153880B6006863A7 /* SFBarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				AE87ADFA15370EED006863A7 /* SFBarcodeScannerView.m */,
+				AE87ADF61536F0C0006863A7 /* SFBarcodeProcessorDelegate.h */,
+				AE28F6B31530A1B500912DCE /* SFBarcodeScannerViewController.h */,
+				AE28F6B41530A1B500912DCE /* SFBarcodeScannerViewController.m */,
+				AE87ADFC15373E85006863A7 /* SFBarcodeScannerViewControllerDelegate.h */,
+				AE28F6B51530A1B500912DCE /* SFBarcodeScannerViewController~iphone.xib */,
+				AE87AE0315387E0A006863A7 /* SFBarcodeScannerViewController~ipad.xib */,
+				AE28F6AE1530975200912DCE /* zxing-all-in-one.cpp */,
+				AE28F6AF1530975200912DCE /* zxing-all-in-one.h */,
+				AE87ADF815370D23006863A7 /* SFBarcodeTypes.h */,
+				AE28F6BA1530A40B00912DCE /* SFBarcodeProcessor.h */,
+				AE28F6BB1530A40B00912DCE /* SFBarcodeProcessor.mm */,
+				AE87ADF915370EED006863A7 /* SFBarcodeScannerView.h */,
+			);
+			path = SFBarcodeScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE28F687153096D800912DCE /* Barcode Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE28F6A9153096D800912DCE /* Build configuration list for PBXNativeTarget "Barcode Scanner" */;
+			buildPhases = (
+				AE28F684153096D800912DCE /* Sources */,
+				AE28F685153096D800912DCE /* Frameworks */,
+				AE28F686153096D800912DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barcode Scanner";
+			productName = "Barcode Scanner";
+			productReference = AE28F688153096D800912DCE /* Barcode Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE28F67F153096D800912DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Sleep(5)";
+			};
+			buildConfigurationList = AE28F682153096D800912DCE /* Build configuration list for PBXProject "Barcode Scanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE28F67D153096D800912DCE;
+			productRefGroup = AE28F689153096D800912DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE28F687153096D800912DCE /* Barcode Scanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE28F686153096D800912DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE28F697153096D800912DCE /* InfoPlist.strings in Resources */,
+				AE28F6A3153096D800912DCE /* SFViewController_iPhone.xib in Resources */,
+				AE28F6A6153096D800912DCE /* SFViewController_iPad.xib in Resources */,
+				AE28F6B71530A1B500912DCE /* SFBarcodeScannerViewController~iphone.xib in Resources */,
+				AE87AE0415387E0A006863A7 /* SFBarcodeScannerViewController~ipad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE28F684153096D800912DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE28F699153096D800912DCE /* main.m in Sources */,
+				AE28F69D153096D800912DCE /* SFAppDelegate.m in Sources */,
+				AE28F6A0153096D800912DCE /* SFViewController.m in Sources */,
+				AE28F6B21530975200912DCE /* zxing-all-in-one.cpp in Sources */,
+				AE28F6B61530A1B500912DCE /* SFBarcodeScannerViewController.m in Sources */,
+				AE28F6BC1530A40B00912DCE /* SFBarcodeProcessor.mm in Sources */,
+				AE87ADFB15370EED006863A7 /* SFBarcodeScannerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE28F695153096D800912DCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE28F696153096D800912DCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE28F6A1153096D800912DCE /* SFViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE28F6A2153096D800912DCE /* en */,
+			);
+			name = SFViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AE28F6A4153096D800912DCE /* SFViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE28F6A5153096D800912DCE /* en */,
+			);
+			name = SFViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE28F6A7153096D800912DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE28F6A8153096D800912DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE28F6AA153096D800912DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcode Scanner/Barcode Scanner-Prefix.pch";
+				INFOPLIST_FILE = "Barcode Scanner/Barcode Scanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE28F6AB153096D800912DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcode Scanner/Barcode Scanner-Prefix.pch";
+				INFOPLIST_FILE = "Barcode Scanner/Barcode Scanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE28F682153096D800912DCE /* Build configuration list for PBXProject "Barcode Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE28F6A7153096D800912DCE /* Debug */,
+				AE28F6A8153096D800912DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE28F6A9153096D800912DCE /* Build configuration list for PBXNativeTarget "Barcode Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE28F6AA153096D800912DCE /* Debug */,
+				AE28F6AB153096D800912DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE28F67F153096D800912DCE /* Project object */;
+}
