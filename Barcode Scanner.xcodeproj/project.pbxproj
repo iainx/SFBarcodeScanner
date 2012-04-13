@@ -47,23 +47,23 @@
 		AE28F6A5153096D800912DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFViewController_iPad.xib; sourceTree = "<group>"; };
 		AE28F6AE1530975200912DCE /* zxing-all-in-one.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "zxing-all-in-one.cpp"; sourceTree = "<group>"; };
 		AE28F6AF1530975200912DCE /* zxing-all-in-one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zxing-all-in-one.h"; sourceTree = "<group>"; };
-		AE28F6B31530A1B500912DCE /* SFBarcodeScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SFBarcodeScannerViewController.h; sourceTree = "<group>"; };
+		AE28F6B31530A1B500912DCE /* SFBarcodeScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBarcodeScannerViewController.h; sourceTree = "<group>"; };
 		AE28F6B41530A1B500912DCE /* SFBarcodeScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBarcodeScannerViewController.m; sourceTree = "<group>"; };
-		AE28F6B51530A1B500912DCE /* SFBarcodeScannerViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "SFBarcodeScannerViewController~iphone.xib"; path = "/Users/iain/Projects/Barcode Scanner/Barcode Scanner/SFBarcodeScanner/SFBarcodeScannerViewController~iphone.xib"; sourceTree = "<absolute>"; };
+		AE28F6B51530A1B500912DCE /* SFBarcodeScannerViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SFBarcodeScannerViewController~iphone.xib"; sourceTree = "<group>"; };
 		AE28F6B81530A30400912DCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		AE28F6BA1530A40B00912DCE /* SFBarcodeProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SFBarcodeProcessor.h; sourceTree = "<group>"; };
+		AE28F6BA1530A40B00912DCE /* SFBarcodeProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBarcodeProcessor.h; sourceTree = "<group>"; };
 		AE28F6BB1530A40B00912DCE /* SFBarcodeProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SFBarcodeProcessor.mm; sourceTree = "<group>"; };
 		AE28F6BD1530B7D200912DCE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		AE28F6BF1530B7DC00912DCE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		AE28F6C11530B7FB00912DCE /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		AE28F6C31530B92800912DCE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		AE28F6C5153318FA00912DCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE72BA2115389E54001AB60C /* ARCMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCMacros.h; sourceTree = "<group>"; };
 		AE87ADF61536F0C0006863A7 /* SFBarcodeProcessorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFBarcodeProcessorDelegate.h; sourceTree = "<group>"; };
 		AE87ADF815370D23006863A7 /* SFBarcodeTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFBarcodeTypes.h; sourceTree = "<group>"; };
-		AE87ADF915370EED006863A7 /* SFBarcodeScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SFBarcodeScannerView.h; sourceTree = "<group>"; };
+		AE87ADF915370EED006863A7 /* SFBarcodeScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBarcodeScannerView.h; sourceTree = "<group>"; };
 		AE87ADFA15370EED006863A7 /* SFBarcodeScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBarcodeScannerView.m; sourceTree = "<group>"; };
-		AE87ADFC15373E85006863A7 /* SFBarcodeScannerViewControllerDelegate.h */ = {isa = PBXFileReference; path = SFBarcodeScannerViewControllerDelegate.h; sourceTree = "<group>"; };
-		AE87AE01153871B7006863A7 /* ARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCMacros.h; path = ../../InnerBand/InnerBand/Core/Macros/ARCMacros.h; sourceTree = "<group>"; };
+		AE87ADFC15373E85006863A7 /* SFBarcodeScannerViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFBarcodeScannerViewControllerDelegate.h; sourceTree = "<group>"; };
 		AE87AE0315387E0A006863A7 /* SFBarcodeScannerViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SFBarcodeScannerViewController~ipad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,7 +138,7 @@
 		AE28F693153096D800912DCE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE87AE01153871B7006863A7 /* ARCMacros.h */,
+				AE72BA2115389E54001AB60C /* ARCMacros.h */,
 				AE28F694153096D800912DCE /* Barcode Scanner-Info.plist */,
 				AE28F695153096D800912DCE /* InfoPlist.strings */,
 				AE28F698153096D800912DCE /* main.m */,
